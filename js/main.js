@@ -59,16 +59,13 @@ $('#owldemo2').owlCarousel({
             0: {
                 items: 1
             },
-            600: {
-                items: 1
-            },
-            900: {
+            575: {
                 items: 2
             },
-            1000: {
-                items: 4
+            900: {
+                items: 3
             },
-			1200: {
+            1024: {
                 items: 4
             }
 			
@@ -135,6 +132,11 @@ $('#owldemo3').owlCarousel({
 $('.counter').counterUp({
     delay: 10,
     time: 1000
-});				
+});		
+
+
+// aos animation //
+AOS.init(); 
+
 	
 	
